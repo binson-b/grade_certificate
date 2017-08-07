@@ -1,2 +1,4 @@
 # grade_certificate
-Grade workshop quiz marks for passing students
+generate grades for passing students in FOSSEE python workshop <br />
+Use python3.x to run this
+

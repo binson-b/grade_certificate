@@ -34,7 +34,7 @@ class App:
 		Radiobutton(frame4,text="1-Day",padx = 20,variable=self.workshop_category,value=0).pack(anchor=W)
 		frame5 = Frame(master)
 		frame5.pack(side=TOP,fill=X,padx=5, pady=5)
-		button = Button(frame5,text="Geneate",command=self.generate)
+		button = Button(frame5,text="Generate",command=self.generate)
 		button.pack(side=LEFT)
 		button = Button(frame5,text="Quit",command=master.destroy)
 		button.pack(side=RIGHT)
@@ -83,6 +83,7 @@ class App:
 def main():
 	root = Tk()
 	app = App(root)
+	root.wm_title("FOSSEE-Workshop-Grader")
 	root.mainloop()
 if __name__=='__main__':
 	main()
