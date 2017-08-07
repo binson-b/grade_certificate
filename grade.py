@@ -83,6 +83,7 @@ class App:
 def main():
 	root = Tk()
 	app = App(root)
+	root.wm_title("FOSSEE-Workshop-Grader")
 	root.mainloop()
 if __name__=='__main__':
 	main()
