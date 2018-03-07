@@ -47,6 +47,9 @@ class App:
         with open("{}".format(self.fileloc)) as f:
             reader =  csv.DictReader(f)
             quiz_fieldnames = [k for k in reader.fieldnames if 'quiz' in k.lower()]
+            for i in reader:
+                college_name = i['institute'].title()
+                break
             for row in reader:
                 name_title = (row['first_name']+' '+row['last_name']).title()
                 email = row['email']
@@ -68,7 +71,7 @@ class App:
                 else:
                     paper = 'Fail'
                 purpose = 'P3W' if (self.workshop_category.get()==1) else 'PWS'
-                college = self.college_name.get()
+                college = college_name if not self.college_name.get() else self.college_name.get()
                 ws_date = self.workshop_date.get()
                 is_coordinator = 0
                 if paper !='Fail':
