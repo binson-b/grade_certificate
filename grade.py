@@ -57,6 +57,11 @@ class App:
                 out_of_mark = 52 if (self.workshop_category.get()==1) else 45
                 if self.workshop_category.get()==2:
                     out_of_mark = 65
+                    college = row['institute'].title()
+                    purpose = 'sel'
+                else:
+                    college = college_name if not self.college_name.get() else self.college_name.get()
+                    purpose = 'P3W' if (self.workshop_category.get()==1) else 'PWS'
                 percentage = total_quiz_mark/out_of_mark
                 if percentage > 0.9:
                     paper = 'A+'
@@ -70,8 +75,6 @@ class App:
                     paper = 'C'
                 else:
                     paper = 'Fail'
-                purpose = 'P3W' if (self.workshop_category.get()==1) else 'PWS'
-                college = college_name if not self.college_name.get() else self.college_name.get()
                 ws_date = self.workshop_date.get()
                 is_coordinator = 0
                 if paper !='Fail':
