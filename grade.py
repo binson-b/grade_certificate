@@ -40,7 +40,14 @@ class App:
         button.pack(side=RIGHT)
 	
     def generate(self):
-        data = open('data_{}.csv'.format(self.college_name.get()),'w')
+        if self.workshop_category.get()==2: # Fellowship
+            data = open('data_fellowship.csv', 'w')
+            completd_stud = open('names.csv', 'r')
+            completd_stud_reader = csv.DictReader(completd_stud)
+            completd_stud_lst = [i['name'].lower() for i in completd_stud_reader]
+            print(completd_stud_lst)
+        else:
+            data = open('data_{}.csv'.format(self.college_name.get()),'w')
         fieldnames = ['id','name','email','paper','purpose','college','ws_date','is_coordinator']
         writer = csv.DictWriter(data,fieldnames=fieldnames)
         writer.writeheader()
@@ -55,6 +62,7 @@ class App:
                 email = row['email']
                 total_quiz_mark = sum([float(row[k]) for k in quiz_fieldnames])
                 out_of_mark = 52 if (self.workshop_category.get()==1) else 45
+                # Fellowship
                 if self.workshop_category.get()==2:
                     out_of_mark = 65
                     college = row['institute'].title()
@@ -78,8 +86,16 @@ class App:
                 ws_date = self.workshop_date.get()
                 is_coordinator = 0
                 if paper !='Fail':
+                    """
+                    if self.workshop_category.get()==2: # Fellowship
+                        if name_title.lower() in completd_stud_lst:
+                            print(name_title.lower(), paper)
+                            writer.writerow({'id':'','name':name_title,'email':email,'paper':paper,'purpose':purpose,
+                                'college':college,'ws_date':ws_date,'is_coordinator':is_coordinator})
+                    else:
+                    """
                     writer.writerow({'id':'','name':name_title,'email':email,'paper':paper,'purpose':purpose,
-                                     'college':college,'ws_date':ws_date,'is_coordinator':is_coordinator})
+                        'college':college,'ws_date':ws_date,'is_coordinator':is_coordinator})
                 else:
                     pass
     def f_open(self):
