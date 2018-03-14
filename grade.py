@@ -44,7 +44,7 @@ class App:
             data = open('data_fellowship.csv', 'w')
             completd_stud = open('names.csv', 'r')
             completd_stud_reader = csv.DictReader(completd_stud)
-            completd_stud_lst = [i['name'].lower() for i in completd_stud_reader]
+            completd_stud_lst = [i['email'].lower() for i in completd_stud_reader]
             print(completd_stud_lst)
         else:
             data = open('data_{}.csv'.format(self.college_name.get()),'w')
@@ -86,16 +86,13 @@ class App:
                 ws_date = self.workshop_date.get()
                 is_coordinator = 0
                 if paper !='Fail':
-                    """
                     if self.workshop_category.get()==2: # Fellowship
-                        if name_title.lower() in completd_stud_lst:
-                            print(name_title.lower(), paper)
+                        if email in completd_stud_lst:
                             writer.writerow({'id':'','name':name_title,'email':email,'paper':paper,'purpose':purpose,
                                 'college':college,'ws_date':ws_date,'is_coordinator':is_coordinator})
                     else:
-                    """
-                    writer.writerow({'id':'','name':name_title,'email':email,'paper':paper,'purpose':purpose,
-                        'college':college,'ws_date':ws_date,'is_coordinator':is_coordinator})
+                        writer.writerow({'id':'','name':name_title,'email':email,'paper':paper,'purpose':purpose,
+                            'college':college,'ws_date':ws_date,'is_coordinator':is_coordinator})
                 else:
                     pass
     def f_open(self):
