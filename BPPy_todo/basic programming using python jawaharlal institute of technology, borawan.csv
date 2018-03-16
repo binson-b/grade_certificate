@@ -1,0 +1,76 @@
+first_name,last_name,roll_number,email,institute,QUIZ - 1,QUIZ - 2,QUIZ - 3,Practice basics,Practice data structures,Practice control flow,Quiz 4(day3),Practice files and exceptions,Practice functions,Quiz 5(day3),total_scored,out_of
+Bhumika,patil,0805IT171008,bhumikapatilpatil@gmail.com,"jawharlal institute of technology,borawan",8.0,1.0,3.0,9.0,8.0,9.0,3.0,5.0,11.0,11.0,68.0,107.0
+Swarna,Gupta,0805CS171098,swarnaguptap123@gmail.com,jawaharlal institute of technology borawan,5.0,2.0,3.0,12.0,9.0,11.0,1.0,5.0,11.0,10.0,69.0,107.0
+SANDIP,KARMA,0805CS171079,Sanjaykarma12@gmail.com,"JAWAHARLAL INSTITUTE OF TECHNOLOGY, BORAWAN",5.0,2.0,6.0,2.0,9.0,0.0,2.0,5.0,11.0,11.0,53.0,107.0
+Sudhir,Dhangar,0805CS171095,sudhirdhangar380@gmail.com,"jawaharlal institute of technology ,borawan",10.0,8.0,8.0,13.0,10.0,5.0,3.0,0.0,7.0,11.0,75.0,107.0
+ShaRad,JoShi,0805CS171084,sharadjoshi1999@gmail.com,"JIT,Borawan",6.0,0.0,3.0,10.0,2.0,3.0,0.0,0.0,0.0,0.0,24.0,107.0
+Ritikosh,Sharma,0805IT171023,viral8773@gmail.com,"JIT,BORAWAN",8.0,1.0,5.0,11.0,10.0,7.0,3.0,5.0,8.0,11.0,69.0,107.0
+Anushi,Gupta,0805cs171011,anushigupta51299@gmail.com,"Jawarlal Intuted of technolog, borawn",5.0,5.0,3.0,6.0,9.0,8.0,1.0,5.0,11.0,10.0,63.0,107.0
+Yashraj,Kumawat,0805cs171111,rajyashkumawat143@gmail.com,"JIT,BORAWAN",9.0,6.0,4.0,13.0,8.0,9.0,3.0,5.0,8.0,11.0,76.0,107.0
+Gourang,Kumrawat,0805IT171010,gourangkumrawat312@gmail.com,Jawaharlal Institute of Technology Borawan Khargone M.P,7.0,8.0,10.0,9.0,10.0,11.0,3.0,5.0,11.0,11.0,85.0,107.0
+Rupali,Choudhari,0805cs171074,choudharirupali2407@gmail.com,Jawaharlal institute technology vidhya vihar Borawan,7.0,2.0,6.0,8.0,3.0,4.0,3.0,5.0,8.0,11.0,57.0,107.0
+Minal,Single,0805IT171018,minalsingle81200@gmail.com,Jawaharlal institute of technologi,4.0,5.0,7.0,2.0,10.0,3.0,3.0,5.0,11.0,11.0,61.0,107.0
+Rudra Pratap Singh,Chouhan,0805CS171073,rudrachouhan999@gmail.com,"JIT, Borawan",7.0,4.0,8.0,10.0,8.0,6.0,1.0,0.0,0.0,11.0,55.0,107.0
+Yamini,Yadav,0805CS171109,Yadavyamini341@gmail.com,JIT borawan,8.0,4.0,5.0,5.0,7.0,6.0,3.0,5.0,10.0,11.0,64.0,107.0
+Abhishek,Sharma,0805IT171002,abhisheksharma787244@gmail.com,Jawaharlal institution of technology borawan,3.0,4.0,3.0,6.0,10.0,2.0,3.0,5.0,11.0,10.0,57.0,107.0
+Vijya,Solanki,012345,Vijyasolanki0011@gmail.com,Jawaharlal institute of technology borawan,9.0,6.0,6.0,1.0,5.0,2.0,3.0,5.0,10.0,11.0,58.0,107.0
+Shivani,Laad,0805CS171087,laadshivani02@gmail.com,"Jawaharlal institute of technology,Borawan",6.0,5.0,6.0,1.0,6.0,4.0,2.0,4.0,11.0,9.0,54.0,107.0
+Twinkle,Karma,06789,twinklekarma101299@gmail.com,Jawaharlal institute of technology borawan,9.0,6.0,6.0,5.0,6.0,1.0,3.0,5.0,11.0,10.0,62.0,107.0
+Srajal,Pandya,0805CS171094,srajalpandya166@gmail.com,Jawaharlal Institute of Technology,7.0,8.0,10.0,7.0,9.0,6.0,2.0,5.0,11.0,11.0,76.0,107.0
+Simran,Sisodiya,0805CS171092,simransisodiya89669@gmail.com,J. I. T. Barawan,5.0,1.0,4.0,4.0,3.0,0.0,3.0,5.0,10.0,11.0,46.0,107.0
+Vikash,Karma,0805CS171104,vikashkarma75@gmail.com,Jawaharlal institute of technology borawan,6.0,0.0,3.0,4.0,9.0,4.0,3.0,5.0,10.0,11.0,55.0,107.0
+Vinod,Varme,0805cs171106,Vinodvarme512@gmail.com,Jawaharlal institute of technology Borawan. state-kasarawad dist.-khargone,3.0,1.0,4.0,0.0,2.0,2.0,0.0,5.0,5.0,10.0,32.0,107.0
+Tushar,More,0805cs171099,Chhotuking41@gmail.com,"Jit, borawan",9.0,5.0,10.0,3.0,3.0,4.0,2.0,5.0,10.0,11.0,62.0,107.0
+Mohit,Sharma,0805IT171019,mohitsharma82049@gmail.com,Jawaharlal Institute of technology borawan,6.0,2.0,7.0,0.0,7.0,3.0,3.0,0.0,0.0,0.0,28.0,107.0
+Vini,Bhawsar,0805cs171105,vini1999bhawsar@gmail.com,Jawaharlal institute of technology,6.0,2.0,6.0,4.0,10.0,0.0,3.0,5.0,11.0,11.0,58.0,107.0
+Shivani,Dasaundhi,0805IT171027,shubhi.dasondhi@gmail.com,"jawaharlal institute of technology ,Borawan",6.0,3.0,7.0,6.0,10.0,3.0,3.0,5.0,11.0,11.0,65.0,107.0
+Shivani,Gupta,0805IT171028,shivigupta20520@gmail.com,"jawaharlal institute of technology ,Borawan",5.0,4.0,6.0,3.0,10.0,8.0,3.0,4.0,8.0,11.0,62.0,107.0
+Sejal,Mahajan,0805cs171083,atharvmahajan14@gmail.com,Jawaharlal institute of technology,6.0,2.0,6.0,4.0,6.0,3.0,3.0,5.0,8.0,11.0,54.0,107.0
+Poonam,Shiwalkar,0805IT171022,poonamshiwalkar@gmail.com,Jawaharlal Institute Of Technology,5.0,2.0,1.0,0.0,7.0,0.0,3.0,4.0,9.0,10.0,41.0,107.0
+Anjali,Parsai,0805IT171004,anjaliparsai1999@gmail.com,Jawar lal institute teachnology borawa,1.0,0.0,0.0,0.0,3.0,0.0,0.0,5.0,3.0,11.0,23.0,107.0
+Sanjay,Khote,0805CS171080,sanjukhote08@gmail.com,"Jawaharlal Institute of Technology, Borawan",8.0,0.0,5.0,7.0,7.0,7.0,1.0,5.0,5.0,11.0,56.0,107.0
+Nitin,Namdev,JIT0061,kiannamdev@gmail.com,Jawaharlal Institute of Technology Borawan,10.0,4.0,10.0,0.0,0.0,0.0,3.0,5.0,1.0,11.0,44.0,107.0
+Mohit,Gupta,0805CS1749,gmohi12345@gmail.com,"Jit Borawa, khargone",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,107.0
+Pradhuman,Suner,0805cs161062,Piyush5111999@gmail.com,"Jawaharlal Institute of Technology, Borawan",8.0,4.0,4.0,11.0,10.0,11.0,4.0,5.0,11.0,11.0,79.0,107.0
+Harshal,Tomar,34,harshaltomar1@gmail.com,"JIT,Borawan",7.0,3.0,2.0,6.0,10.0,9.0,4.0,5.0,11.0,11.0,68.0,107.0
+Gourav,Mandloi,0805cs171029,iamgourav072@gmail.com,jawaharlal institute of technology borawan,10.0,7.0,8.0,12.0,11.0,10.0,3.0,5.0,10.0,11.0,87.0,107.0
+Shubham,Gupta,0805CS171089,shubhamsanjaygupta@gmail.com,"Jawarharlal Institute of Technology, Borawan",10.0,8.0,8.0,10.0,11.0,11.0,3.0,5.0,11.0,11.0,88.0,107.0
+aman,thakur,0805cs171007,at73650@gmail.com,jawaharlal institute of technology borawan,5.0,3.0,5.0,2.0,4.0,0.0,1.0,5.0,10.0,10.0,45.0,107.0
+Brajesh,Mahajan,0805cs171020,brajeshmahajan01@gmail.com,Jawaharlal Institute of Technology,9.0,5.0,8.0,11.0,10.0,13.0,3.0,5.0,11.0,11.0,86.0,107.0
+devendra,verma,0805cs171026,goldiv118@gmail.com,jawaharlal institute of technology borawan,10.0,7.0,10.0,12.0,11.0,8.0,3.0,5.0,10.0,11.0,87.0,107.0
+mohit,bhagat,171050,mohitmg135@gmail.com,jawahalal institute of technology,10.0,5.0,8.0,10.0,11.0,9.0,4.0,5.0,11.0,11.0,84.0,107.0
+Mayank,Jaiswal,0805CS171046,mayank13au@gmail.com,Jawaharlal institute of technology,9.0,5.0,8.0,12.0,10.0,9.0,3.0,5.0,10.0,11.0,82.0,107.0
+Roshi,Wagh,0805cs171072,roshi14wagh@gmail.com,Jawaharlal Institute of Technology,9.0,6.0,5.0,11.0,10.0,5.0,2.0,5.0,11.0,11.0,75.0,107.0
+Harshita,Malviya,0805CS171032,malviyaharshita14@gmail.com,Jawaharlal institute of technology,9.0,5.0,6.0,12.0,10.0,8.0,3.0,5.0,11.0,11.0,80.0,107.0
+shivani,soni,0805cs171088,shivanisoni0501@gmail.com,"jawahharlal institute of technology ,borawan",7.0,2.0,4.0,3.0,10.0,4.0,4.0,5.0,11.0,11.0,61.0,107.0
+manas,luktuke,0805cs171044,manasluktuke104@gmail.com,jawaharlal institute of technology borawan,9.0,6.0,4.0,12.0,10.0,9.0,2.0,5.0,3.0,10.0,70.0,107.0
+Bhumika,Chandore,0805cs171019,bhumika27chandore@gmail.com,Jawaharlal Institute of Technology,9.0,7.0,8.0,10.0,8.0,3.0,3.0,5.0,11.0,11.0,75.0,107.0
+Khadija,Bilwa,0805CS171039,bilwakhadija@gmail.com,"Jawaharlal institute of technology,vidhya vihar,Borawan",2.0,4.0,6.0,12.0,9.0,11.0,2.0,5.0,11.0,10.0,72.0,107.0
+kritika,patidar,0805cs171041,kritikapatidar6641@gmail.com,"Jawaharlal institute of technology,vidhya vihar,Borawan",9.0,1.0,6.0,11.0,9.0,6.0,1.0,5.0,11.0,11.0,70.0,107.0
+Vishal,Soni,0805CS171107,vishalsoni2271999@gmail.com,JIT Borawan,3.0,3.0,7.0,3.0,10.0,0.0,4.0,5.0,10.0,11.0,56.0,107.0
+Shivam,Patidar,0805cs171085,Shivampatidar2130@gmail.com,Jit borawan,1.0,4.0,6.0,2.0,8.0,1.0,3.0,5.0,10.0,11.0,51.0,107.0
+nandini,chouhan,0805cs171053,nandini.chouhan244@gmail.com,jawaharlal institute of technology borawan,4.0,5.0,3.0,6.0,9.0,7.0,1.0,5.0,10.0,10.0,60.0,107.0
+Shubham,Tawar,0805CS171091,tawarshubham47777@gmail.com,"Jawaharlal Institute of Technology,Borawan",8.0,5.0,4.0,12.0,3.0,5.0,3.0,5.0,10.0,11.0,66.0,107.0
+Vaibhav,Karma,0805cs171101,pkarma867@gmail.com,Jawaharlal Institute of Technology Borawan Khargone M.P,10.0,4.0,4.0,10.0,9.0,6.0,3.0,5.0,11.0,11.0,73.0,107.0
+Harshita,Paliwal,0805CS171033,harshita27paliwal@gmail.com,Jawaharlal institute of technology,10.0,6.0,8.0,12.0,11.0,11.0,4.0,5.0,11.0,11.0,89.0,107.0
+harsh,mahajan,0805cs171031,harsh.maha111@gmail.com,jawaharlal institute of technology,3.0,4.0,6.0,2.0,9.0,0.0,2.0,5.0,7.0,11.0,49.0,107.0
+Dhruv,Gole,0805cs171027,dhruvgole09@gmail.com,"Jawaharlal Institute of Technology, Borawan",8.0,6.0,5.0,10.0,11.0,12.0,4.0,5.0,11.0,11.0,83.0,107.0
+Akshat,Namdeo,0805IT171003,akshatnamdeo007@gmail.com,JIT Borawan,5.0,3.0,6.0,12.0,10.0,4.0,3.0,5.0,11.0,11.0,70.0,107.0
+Prakash,Soni,0805cs171061,ps7579048@gmail.com,Jhawaharlal institute of technology borawan,10.0,6.0,6.0,12.0,10.0,9.0,3.0,5.0,10.0,11.0,82.0,107.0
+Saloni,Mahajan,0805CS171076,mahajanmahajan1999@gmail.com,Jawaharlal Institute of Technology Borawan,5.0,4.0,5.0,6.0,10.0,1.0,3.0,5.0,11.0,10.0,60.0,107.0
+Aman,Paliwal,0805CS171006,amanpaliwal777@gmail.com,Jawaharlal Institute of Technology,9.0,6.0,6.0,12.0,10.0,11.0,3.0,5.0,11.0,11.0,84.0,107.0
+RADHIKA,SOLANKI,0805CS171065,radhikasolanki304@gmail.com,JAWAHARLAL INSTITUTE OF TECHNOLOGY VIDHYA VIHAR BORAVAN,8.0,4.0,4.0,6.0,3.0,4.0,0.0,5.0,5.0,11.0,50.0,107.0
+Vaishnavi,Dubey,0805it171030,Vaishnavi.Dubey0133@gmail.com,Jawaharlal institute of technology,0.0,2.0,3.0,0.0,0.0,1.0,1.0,0.0,7.0,11.0,25.0,107.0
+Yashi,Mahajan,0805CS171110,yashi16mahajan@gmail.com,"Jawaharlal Institute of Technology ,Borawan",6.0,3.0,3.0,11.0,10.0,14.0,3.0,5.0,11.0,11.0,77.0,107.0
+arun,kp,123,arun@fossee.in,,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,107.0
+Shubhanshu,Gole,0805CS151108,gole.shubhanshu4@gmail.com,"Jawaharlal Institute Of Technology, Borawan",7.0,10.0,9.0,7.0,0.0,4.0,2.0,5.0,11.0,11.0,66.0,107.0
+Husain,Mansoori,0805IT171011,mansoorihusain9171@gmail.com,Jawaharlal Institute of technology Borwan,5.0,2.0,6.0,1.0,8.0,0.0,2.0,5.0,10.0,9.0,48.0,107.0
+Ayush,Kushwah,0805cs161015,aayushkushwah83@gmail.com,"Jawaharlal Institute of Technology,Borawan",8.0,6.0,4.0,11.0,10.0,9.0,2.0,5.0,11.0,9.0,75.0,107.0
+Ashvin,Mandloi,0805cs161012,ashvinmandloi001@gmail.com,"Jawaharlal Institute of Technology,Borawan",8.0,7.0,4.0,12.0,11.0,12.0,4.0,5.0,11.0,10.0,84.0,107.0
+priya,patil,0805cs171063,priyapatil171063@gmail.com,"Jawaharlal Institute of Technology, Borawan",4.0,2.0,6.0,4.0,5.0,2.0,0.0,4.0,9.0,4.0,40.0,107.0
+Sohail,Khan,0805IT171029,sohalkhan425@gmail.com,"jawaharlal institute of technology ,Borawan",10.0,4.0,6.0,8.0,0.0,7.0,2.0,0.0,10.0,11.0,58.0,107.0
+Vaishnavi,Mandloi,0805CS171102,vaishnavimandloi08@gmail.com,jit borawan,8.0,2.0,4.0,10.0,8.0,4.0,1.0,0.0,7.0,11.0,55.0,107.0
+nikita,undle,0805IT171021,nikitaundle9893@gmail.com,jawaharlal institute of technology,3.0,5.0,6.0,1.0,8.0,7.0,2.0,4.0,6.0,11.0,53.0,107.0
+Mayur,Jaiswal,0805IT171017,mayurjaiswal9290@gmail.com,Jawaharlal Institute of Technology Borawan,8.0,3.0,4.0,10.0,1.0,7.0,3.0,5.0,10.0,11.0,62.0,107.0
+priyanshi,gupta,0805cs171064,priyanshi44200@gmail.com,"JIT,Borawan",4.0,1.0,2.0,1.0,4.0,2.0,2.0,4.0,2.0,4.0,26.0,107.0
+MANOJ KUMAR,SONI,JIT0155,manojsonikgn@rediffmail.com,JIT BORAWAN,10.0,1.0,7.0,7.0,0.0,0.0,1.0,5.0,9.0,11.0,51.0,107.0
