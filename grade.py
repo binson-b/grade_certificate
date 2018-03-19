@@ -82,19 +82,18 @@ class App:
                 elif .35 < percentage <= .50:
                     paper = 'C'
                 else:
-                    paper = 'Fail'
+                    paper = 'F'
                 ws_date = self.workshop_date.get()
                 is_coordinator = 0
-                if paper !='Fail':
-                    if self.workshop_category.get()==2: # Fellowship
-                        if email in completd_stud_lst:
-                            writer.writerow({'id':'','name':name_title,'email':email,'paper':paper,'purpose':purpose,
-                                'college':college,'ws_date':ws_date,'is_coordinator':is_coordinator})
-                    else:
+                if self.workshop_category.get()==2: # Fellowship
+                    if email in completd_stud_lst:
                         writer.writerow({'id':'','name':name_title,'email':email,'paper':paper,'purpose':purpose,
                             'college':college,'ws_date':ws_date,'is_coordinator':is_coordinator})
+                    else:
+                        pass
                 else:
-                    pass
+                    writer.writerow({'id':'','name':name_title,'email':email,'paper':paper,'purpose':purpose,
+                        'college':college,'ws_date':ws_date,'is_coordinator':is_coordinator})
     def f_open(self):
         dlg = filedialog.Open()
         self.fileloc = dlg.show()
