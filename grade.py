@@ -54,21 +54,18 @@ class App:
         with open("{}".format(self.fileloc)) as f:
             reader =  csv.DictReader(f)
             quiz_fieldnames = [k for k in reader.fieldnames if 'quiz' in k.lower()]
-            for i in reader:
-                college_name = i['institute'].title()
-                break
             for row in reader:
                 name_title = (row['first_name']+' '+row['last_name']).title()
                 email = row['email']
                 total_quiz_mark = sum([float(row[k]) for k in quiz_fieldnames])
                 out_of_mark = 52 if (self.workshop_category.get()==1) else 45
+                college = row['institute'].title()
                 # Fellowship
                 if self.workshop_category.get()==2:
                     out_of_mark = 65
-                    college = row['institute'].title()
                     purpose = 'sel'
                 else:
-                    college = college_name if not self.college_name.get() else self.college_name.get()
+                    college = college if not self.college_name.get() else self.college_name.get()
                     purpose = 'P3W' if (self.workshop_category.get()==1) else 'PWS'
                 percentage = total_quiz_mark/out_of_mark
                 if percentage > 0.9:
