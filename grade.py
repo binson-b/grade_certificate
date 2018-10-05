@@ -38,13 +38,13 @@ class App:
         button.pack(side=LEFT)
         button = Button(frame5,text="Quit",command=master.destroy)
         button.pack(side=RIGHT)
-	
+
     def generate(self):
         if self.workshop_category.get()==2: # Fellowship
             data = open('data_fellowship.csv', 'w')
             completd_stud = open('names.csv', 'r')
             completd_stud_reader = csv.DictReader(completd_stud)
-            completd_stud_lst = [i['email'].lower() for i in completd_stud_reader]
+            completd_stud_lst = [i['email'].lower() for i in completd_stud_reader if i['percent'] == '99']
             print(completd_stud_lst)
         else:
             data = open('data_{}.csv'.format(self.college_name.get()),'w')
@@ -83,7 +83,7 @@ class App:
                 ws_date = self.workshop_date.get()
                 is_coordinator = 0
                 if self.workshop_category.get()==2: # Fellowship
-                    if email in completd_stud_lst:
+                    if email.lower() in completd_stud_lst:
                         writer.writerow({'id':'','name':name_title,'email':email,'paper':paper,'purpose':purpose,
                             'college':college,'ws_date':ws_date,'is_coordinator':is_coordinator})
                     else:
